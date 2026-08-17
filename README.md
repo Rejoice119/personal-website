@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-A modern, full-stack personal portfolio website built with Next.js 14, React, and PostgreSQL.
+A modern, full-stack personal portfolio website built with Next.js 14, React, and MySQL.
 
 ## Features
 
@@ -19,7 +19,7 @@ A modern, full-stack personal portfolio website built with Next.js 14, React, an
 
 - **Frontend**: Next.js 14, React 18, TypeScript
 - **Styling**: Tailwind CSS
-- **Database**: PostgreSQL
+- **Database**: MySQL
 - **ORM**: Prisma
 - **Authentication**: NextAuth.js
 - **Email**: Resend
@@ -30,7 +30,7 @@ A modern, full-stack personal portfolio website built with Next.js 14, React, an
 ### Prerequisites
 
 - Node.js 18+ and npm/yarn
-- PostgreSQL database (or use Vercel Postgres)
+- MySQL database (local MySQL or a managed MySQL provider)
 - Resend API key (for email)
 
 ### Installation
@@ -131,7 +131,7 @@ See [Next.js Deployment Documentation](https://nextjs.org/docs/deployment/vercel
 
 See `.env.local` for configuration options:
 
-- `DATABASE_URL` - PostgreSQL connection string
+- `DATABASE_URL` - MySQL connection string
 - `NEXTAUTH_SECRET` - Secret for NextAuth
 - `RESEND_API_KEY` - Resend API key for emails
 - `ADMIN_EMAIL` - Your email address
